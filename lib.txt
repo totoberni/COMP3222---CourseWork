@@ -1,0 +1,35 @@
+!pip install emoji
+!pip install scikit-learn
+!pip install langdetect
+!pip install googletrans
+import urllib #module helps download stuff from the internet
+import tarfile # decompressing .tgz file
+import pandas as pd # imports data manipulation library
+import matplotlib.pyplot as plt
+import numpy as np
+import sklearn as sk # this has a lot of ML models
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction import text
+from pathlib import Path
+import re
+import emoji
+from langdetect import detect
+from googletrans import Translator
+import nltk
+from nltk.corpus import stopwords
+from nltk.corpus import opinion_lexicon
+from nltk.tokenize import word_tokenize
+from collections import Counter
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+import seaborn as sns
+import re
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import precision_score, accuracy_score, recall_score, f1_score, confusion_matrix
+from sklearn.preprocessing import LabelEncoder
+from sklearn.impute import SimpleImputer
+from scipy.sparse import hstack, csr_matrix
+from sklearn.metrics import confusion_matrix
+from sklearn.preprocessing import MinMaxScaler
